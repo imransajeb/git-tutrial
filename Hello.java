@@ -2,22 +2,9 @@ public class Hello {
   public static void main (String[] args) {
     System.out.println("VS code is Awesome...");
    
-   greeting("Git");
+  }
+  public static void message() {
+    System.out.println("Hooray!! Now we are able to contribute on open source...");
   }
 
-  public static void greeting(String name) {
-   System.out.println("Bye Bye " . name)
-  }
-
-  
-  public static int sqr(int x) {
-    return x * x;
-
-    display();
-  }
-
-  public static void display () {
-    System.out.println(Hello Hello);
-
-  }
 }
